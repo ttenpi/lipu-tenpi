@@ -14,7 +14,7 @@
 
 <style>
   body {
-    background: var(--ctp-mocha-crust);
-    color: var(--ctp-mocha-text);
+    background: var(--ctp-crust);
+    color: var(--ctp-text);
   }
 </style>
