@@ -1,0 +1,37 @@
+:root {
+  --measure: 70ch;
+  --font-size-adapt: .333vw;
+  --line-height: 1.6;
+  --font-plain: sans-serif;
+}
+
+/* fonts */
+
+body {
+  font-family: var(--font-plain);
+  font-size: calc(1rem + var(--font-size-adapt));
+  /* 1rem at minimum, so it never drops below the system/browser/user defined value */
+  line-height: var(--line-height);
+}
+
+/* measure */
+
+* {
+  max-inline-size: var(--measure);
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-inline-size: none;
+}
+
+/* headers */
+h1 { font-size: var(--s4); }
+h2 { font-size: var(--s3); }
+h3 { font-size: var(--s2); }
+h4 { font-size: var(--s1); }

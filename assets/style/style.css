@@ -1,0 +1,13 @@
+@import "@catppuccin/palette/style";
+@import "catppuccin-helpers.css";
+@import "reset.css";
+@import "sizing.css";
+@import "typography.css";
+
+.testing {
+  outline: 1px solid #f42069;
+  background-color: #f4206988;
+  padding: 4px;
+  margin: -4px;
+  border-radius: 4px;
+}
