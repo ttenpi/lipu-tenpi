@@ -3,13 +3,13 @@
   --font-size-adapt: .333vw;
   --line-height: 1.6;
   --font-plain: sans-serif;
+  font-size: var(--s0);
 }
 
 /* fonts */
 
 body {
   font-family: var(--font-plain);
-  font-size: calc(1rem + var(--font-size-adapt));
   /* 1rem at minimum, so it never drops below the system/browser/user defined value */
   line-height: var(--line-height);
 }

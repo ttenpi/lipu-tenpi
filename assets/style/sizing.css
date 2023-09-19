@@ -1,14 +1,58 @@
+/* doesn't fucking work, try rming the s-min* and s-max* stuff except for 0 and apply the ratios on those maxi- and minimized ones */
 :root {
-  --ratio: 1.25;
-  --s-5: calc(var(--s-4) / var(--ratio));
-  --s-4: calc(var(--s-3) / var(--ratio));
-  --s-3: calc(var(--s-2) / var(--ratio));
-  --s-2: calc(var(--s-1) / var(--ratio));
-  --s-1: calc(var(--s0) / var(--ratio));
-  --s0: 1rem;
-  --s1: calc(var(--s0) * var(--ratio));
-  --s2: calc(var(--s1) * var(--ratio));
-  --s3: calc(var(--s2) * var(--ratio));
-  --s4: calc(var(--s3) * var(--ratio));
-  --s5: calc(var(--s4) * var(--ratio));
+  --s-ratio: 1.3334;
+  --s-adapt: .333;
+  --s-adapt-factor: 0.333vw;
+  --s-vwmin: 500;
+  --s-vwmin-min: calc(var(--s-vwmin) / 100 * var(--s-adapt) * 1px);
+  --s-vwmax: 1700;
+  --s-vmax-max: calc(var(--s-vwmax) / 100 * var(--s-adapt) * 1px);
+
+  --s-min-5: calc(var(--s-min-4) / var(--s-ratio));
+  --s-min-4: calc(var(--s-min-3) / var(--s-ratio));
+  --s-min-3: calc(var(--s-min-2) / var(--s-ratio));
+  --s-min-2: calc(var(--s-min-1) / var(--s-ratio));
+  --s-min-1: calc(var(--s-min0) / var(--s-ratio));
+  --s-min0: 1rem;
+  --s-min1: calc(var(--s-min0) * var(--s-ratio));
+  --s-min2: calc(var(--s-min1) * var(--s-ratio));
+  --s-min3: calc(var(--s-min2) * var(--s-ratio));
+  --s-min4: calc(var(--s-min3) * var(--s-ratio));
+  --s-min5: calc(var(--s-min4) * var(--s-ratio));
+
+  --s-target-5: calc(var(--s-min-5) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target-4: calc(var(--s-min-4) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target-3: calc(var(--s-min-3) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target-2: calc(var(--s-min-2) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target-1: calc(var(--s-min-1) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target0: calc(var(--s-min0) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target1: calc(var(--s-min1) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target2: calc(var(--s-min2) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target3: calc(var(--s-min3) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target4: calc(var(--s-min4) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target5: calc(var(--s-min5) + var(--s-adapt-factor) - var(--s-vwmin-min));
+
+  --s-max-5: calc(var(--s-min-5) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max-4: calc(var(--s-min-4) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max-3: calc(var(--s-min-3) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max-2: calc(var(--s-min-2) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max-1: calc(var(--s-min-1) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max0: calc(var(--s-min0) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max1: calc(var(--s-min1) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max2: calc(var(--s-min2) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max3: calc(var(--s-min3) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max4: calc(var(--s-min4) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max5: calc(var(--s-min5) + var(--s-vmax) * var(--s-adapt-factor));
+
+  --s-5: clamp(var(--s-min-5), var(--s-target-5), var(--s-max-5));
+  --s-4: clamp(var(--s-min-4), var(--s-target-4), var(--s-max-4));
+  --s-3: clamp(var(--s-min-3), var(--s-target-3), var(--s-max-3));
+  --s-2: clamp(var(--s-min-2), var(--s-target-2), var(--s-max-2));
+  --s-1: clamp(var(--s-min-1), var(--s-target-1), var(--s-max-1));
+  --s0: clamp(var(--s-min0), var(--s-target0), 9999vw);
+  --s1: clamp(var(--s-min1), var(--s-target1), var(--s-max1));
+  --s2: clamp(var(--s-min2), var(--s-target2), var(--s-max2));
+  --s3: clamp(var(--s-min3), var(--s-target3), var(--s-max3));
+  --s4: clamp(var(--s-min4), var(--s-target4), var(--s-max4));
+  --s5: clamp(var(--s-min5), var(--s-target5), var(--s-max5));
 }
