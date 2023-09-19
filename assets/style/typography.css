@@ -62,7 +62,7 @@ h4 {
 
 /* code, pre */
 
-pre code .line + .line {
+pre code .line+.line {
   line-height: 1.5;
   margin-block-start: 0;
 }

@@ -78,7 +78,7 @@
   --s-target-4: calc(var(--s-target-3) / var(--s-ratio));
   --s-target-3: calc(var(--s-target-2) / var(--s-ratio));
   --s-target-2: calc(var(--s-target-1) / var(--s-ratio));
-  --s-target-1: calc(var(--s-target0) / var(--s-ratio));
+  --s-target-1: calc(var(--s-target0) / var(--s-ratio) + var(--s-vwmin-min));
   --s-target0: calc(var(--s-min0) + var(--s-adapt-factor) - var(--s-vwmin-min));
   --s-target1: calc(var(--s-target0) * var(--s-ratio));
   --s-target2: calc(var(--s-target1) * var(--s-ratio));
