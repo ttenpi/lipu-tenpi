@@ -62,11 +62,11 @@ h4 {
 
 /* code, pre */
 
-pre code .line+.line {
+pre code .line + .line {
   line-height: 1.5;
   margin-block-start: 0;
 }
 
 pre {
-  font-size: var(--s0);
+  font-size: var(--s-1);
 }
