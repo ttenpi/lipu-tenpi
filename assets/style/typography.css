@@ -31,10 +31,22 @@ footer {
 }
 
 /* headers */
-h1 { font-size: var(--s4); }
-h2 { font-size: var(--s3); }
-h3 { font-size: var(--s2); }
-h4 { font-size: var(--s1); }
+
+h1 {
+  font-size: var(--s4);
+}
+
+h2 {
+  font-size: var(--s3);
+}
+
+h3 {
+  font-size: var(--s2);
+}
+
+h4 {
+  font-size: var(--s1);
+}
 
 h1,
 h2,
@@ -43,7 +55,18 @@ h4 {
   color: var(--ctp-mauve);
 }
 
-:is(h1,h2,h3,h4) a {
+:is(h1, h2, h3, h4) a {
   color: inherit;
   text-decoration: none;
+}
+
+/* code, pre */
+
+pre code .line+.line {
+  line-height: 1.5;
+  margin-block-start: 0;
+}
+
+pre {
+  font-size: var(--s0);
 }

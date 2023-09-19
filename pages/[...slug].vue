@@ -1,5 +1,7 @@
 <template>
   <main>
-    <ContentDoc />
+    <ELStack recursive>
+      <ContentDoc />
+    </ELStack>
   </main>
 </template>
