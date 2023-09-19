@@ -1,13 +1,67 @@
-/* doesn't fucking work, try rming the s-min* and s-max* stuff except for 0 and apply the ratios on those maxi- and minimized ones */
-:root {
-  --s-ratio: 1.3334;
-  --s-adapt: .333;
-  --s-adapt-factor: 0.333vw;
-  --s-vwmin: 500;
-  --s-vwmin-min: calc(var(--s-vwmin) / 100 * var(--s-adapt) * 1px);
-  --s-vwmax: 1700;
-  --s-vmax-max: calc(var(--s-vwmax) / 100 * var(--s-adapt) * 1px);
+/*
+  welcome to the pantheon of magical numbers,
+  adventurers of the digital realm!
 
+  gather 'round as we embark on a journey
+  through the sacred tome known as SIZING.CSS,
+  a document as mystical and essential as a wizard's spellbook.
+
+  as your guide through this labyrinthine landscape,
+  i, your humble loremaster, shall paint a vivid portrait
+  of what you shall find within these
+  cryptic runes and incantations.
+*/
+
+:root {
+  /*
+    behold the enchanting variable,
+    a weaver of harmonious scales,
+    guiding subsequent sizes with an elegant ratio,
+    much like a master conductor directs a symphony.
+  */
+  --s-ratio: calc(1 + (pi / 10));
+  /*
+    a controlling variable for gradual size expansion
+    as the viewport widens,
+    ensuring a responsive and visually pleasing layout
+    as the screen horizon broadens.
+  */
+  --s-adapt: calc(pi / 10);
+  /*
+    two mystical variables, like sentinels of design,
+    determine when font size reaches
+    its smallest and largest values,
+    orchestrating the responsive tale.
+  */
+  /* lol imagine looking at sites on an apple watch tho */
+  --s-vwmin: 450;
+  --s-vwmax: 1700;
+
+  --s-adapt-factor: calc(var(--s-adapt) * 1vw);
+  --s-vwmin-min: calc(var(--s-vwmin) / 100 * var(--s-adapt) * 1px);
+  --s-vwmax-max: calc(var(--s-vwmax) / 100 * var(--s-adapt) * 1px);
+
+  /*
+    in the enchanting realm of web design,
+    the humble "1rem" stands
+    as the minimum font size for body text,
+    a default of 16 pixels for most.
+
+    much like a bard's melodic cadence,
+    it sets the rhythm of our digital narratives,
+    ensuring readability and accessibility
+    for all who embark on our web-based quests.
+
+    the mystical "1rem" font size,
+    like a shape-shifting spell, gracefully adapts
+    to the system, browser, or user-defined values,
+    ensuring a harmonious reading experience for all.
+
+    as a cornerstone of our design,
+    it beckons all to partake in the digital tapestry,
+    where every pixel or subpixel tells a tale
+    and every word finds its voice.
+  */
   --s-min-5: calc(var(--s-min-4) / var(--s-ratio));
   --s-min-4: calc(var(--s-min-3) / var(--s-ratio));
   --s-min-3: calc(var(--s-min-2) / var(--s-ratio));
@@ -20,36 +74,64 @@
   --s-min4: calc(var(--s-min3) * var(--s-ratio));
   --s-min5: calc(var(--s-min4) * var(--s-ratio));
 
-  --s-target-5: calc(var(--s-min-5) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target-4: calc(var(--s-min-4) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target-3: calc(var(--s-min-3) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target-2: calc(var(--s-min-2) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target-1: calc(var(--s-min-1) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target-5: calc(var(--s-target-4) / var(--s-ratio));
+  --s-target-4: calc(var(--s-target-3) / var(--s-ratio));
+  --s-target-3: calc(var(--s-target-2) / var(--s-ratio));
+  --s-target-2: calc(var(--s-target-1) / var(--s-ratio));
+  --s-target-1: calc(var(--s-target0) / var(--s-ratio));
   --s-target0: calc(var(--s-min0) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target1: calc(var(--s-min1) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target2: calc(var(--s-min2) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target3: calc(var(--s-min3) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target4: calc(var(--s-min4) + var(--s-adapt-factor) - var(--s-vwmin-min));
-  --s-target5: calc(var(--s-min5) + var(--s-adapt-factor) - var(--s-vwmin-min));
+  --s-target1: calc(var(--s-target0) * var(--s-ratio));
+  --s-target2: calc(var(--s-target1) * var(--s-ratio));
+  --s-target3: calc(var(--s-target2) * var(--s-ratio));
+  --s-target4: calc(var(--s-target3) * var(--s-ratio));
+  --s-target5: calc(var(--s-target4) * var(--s-ratio));
 
-  --s-max-5: calc(var(--s-min-5) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max-4: calc(var(--s-min-4) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max-3: calc(var(--s-min-3) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max-2: calc(var(--s-min-2) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max-1: calc(var(--s-min-1) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max0: calc(var(--s-min0) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max1: calc(var(--s-min1) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max2: calc(var(--s-min2) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max3: calc(var(--s-min3) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max4: calc(var(--s-min4) + var(--s-vmax) * var(--s-adapt-factor));
-  --s-max5: calc(var(--s-min5) + var(--s-vmax) * var(--s-adapt-factor));
+  --s-max-5: calc(var(--s-max-4) / var(--s-ratio));
+  --s-max-4: calc(var(--s-max-3) / var(--s-ratio));
+  --s-max-3: calc(var(--s-max-2) / var(--s-ratio));
+  --s-max-2: calc(var(--s-max-1) / var(--s-ratio));
+  --s-max-1: calc(var(--s-max0) / var(--s-ratio));
+  --s-max0: calc(var(--s-min0) + var(--s-vwmax-max) - var(--s-vwmin-min));
+  --s-max1: calc(var(--s-max0) * var(--s-ratio));
+  --s-max2: calc(var(--s-max1) * var(--s-ratio));
+  --s-max3: calc(var(--s-max2) * var(--s-ratio));
+  --s-max4: calc(var(--s-max3) * var(--s-ratio));
+  --s-max5: calc(var(--s-max4) * var(--s-ratio));
 
+  /*
+    as we conclude our magical journey
+    through the design scrolls,
+    we find ourselves in a treasure room
+    filled with variables,
+    each a gem of immense value.
+
+    behold the enchanting variables,
+    from s-5 to s5, like guardian dragons
+    guarding their hoard.
+
+    these precious gems hold within them
+    not only a clamped minimum value,
+    ensuring our design's readability
+    even in the darkest of dungeons,
+    but also a target value,
+    the heart of our harmonic scale,
+    guiding us towards elegance.
+    and lest we soar too high,
+    they possess a clamped maximum value,
+    a reminder that even the mightiest of spells
+    must be wielded with restraint.
+
+    with these treasures in hand,
+    our design quests shall be legendary,
+    our creations a symphony
+    of harmony and proportion.
+  */
   --s-5: clamp(var(--s-min-5), var(--s-target-5), var(--s-max-5));
   --s-4: clamp(var(--s-min-4), var(--s-target-4), var(--s-max-4));
   --s-3: clamp(var(--s-min-3), var(--s-target-3), var(--s-max-3));
   --s-2: clamp(var(--s-min-2), var(--s-target-2), var(--s-max-2));
   --s-1: clamp(var(--s-min-1), var(--s-target-1), var(--s-max-1));
-  --s0: clamp(var(--s-min0), var(--s-target0), 9999vw);
+  --s0: clamp(var(--s-min0), var(--s-target0), var(--s-max0));
   --s1: clamp(var(--s-min1), var(--s-target1), var(--s-max1));
   --s2: clamp(var(--s-min2), var(--s-target2), var(--s-max2));
   --s3: clamp(var(--s-min3), var(--s-target3), var(--s-max3));
