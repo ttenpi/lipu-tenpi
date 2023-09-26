@@ -1,1 +1,1 @@
-<!-- todo: write an article about Miller's Law (psychology) and that cheat sheet you made -->
+<!-- todo: write an article about Miller's Law (psychology), chunking, and that cheat sheet you made https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931 -->
