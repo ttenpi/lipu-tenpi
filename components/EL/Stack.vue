@@ -19,7 +19,7 @@
       splitAfter?: number
     }>(),
     {
-      space: "1.5rem",
+      space: "var(--s0)",
       recursive: false,
       splitAfter: 0,
     }
@@ -40,7 +40,7 @@
 
   .stack > * + *,
   .recursive * + * {
-    margin-block-start: var(--space, 1.5rem);
+    margin-block-start: var(--space, var(--s0));
   }
 
   .splitAfter:only-child {

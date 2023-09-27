@@ -18,7 +18,7 @@
       invert?: boolean
     }>(),
     {
-      padding: "var(--s1)",
+      padding: "var(--s0)",
       borderWidth: 'var(--border-thin)',
       invert: false,
     }
@@ -27,7 +27,7 @@
 
 <style module>
   .box {
-    padding: var(--s1);
+    padding: var(--s0);
     border: var(--border-thin) solid;
     --color-light: #fff;
     --color-dark: #000;
