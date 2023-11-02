@@ -6,7 +6,7 @@
           <q title="random nonsense">{{ quote }}</q>
         </p>
         <p>tenpi is created by daph</p>
-        <small>code licensed under <a href="/LICENSE">GPLv3</a></small>
+        <small>code licensed under <a href="/LICENSE.txt">GPLv3</a></small>
       </ELCenter>
     </footer>
   </ELBox>
