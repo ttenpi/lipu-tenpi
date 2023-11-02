@@ -7,7 +7,7 @@
 }
 ```
 
-this is a [test]{style="color: hotpink;"}
+[this is a [test]{style="color: hotpink;"}](/test)
 
 <!--more-->
 

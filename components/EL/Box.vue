@@ -1,14 +1,10 @@
 <template>
   <div
-    :class="[
-      $style.box,
-      invert ? $style.invert : '',
-    ]"
+    :class="[$style.box, invert ? colorModeClass : '']"
     :style="{
       '--padding': padding,
-      '--borderWidth': borderWidth
-    }"
-  >
+      '--borderWidth': borderWidth,
+    }">
     <slot />
   </div>
 </template>
@@ -22,25 +18,29 @@
     }>(),
     {
       padding: "var(--s1)",
-      borderWidth: 'var(--border-thin)',
+      borderWidth: "var(--border-thin)",
       invert: false,
     }
   )
+
+  const colorMode = useColorMode()
+  const colorModeClass = computed(() => {
+    if (colorMode.value === "light" || colorMode.value === "latte") {
+      return "dark-theme"
+    } else {
+      return "light-theme"
+    }
+  })
 </script>
 
 <style module>
   .box {
-    padding: var(--padding, var(--s0));
+    padding: var(--padding, var(--s1));
     --border-thin: 2px;
-    border: var(--borderWidth, var(--border-thin)) solid;
-    --color-light: #fff;
-    --color-dark: #000;
-    color: var(--color-dark);
-    background-color: var(--color-light);
-  }
+    border: var(--borderWidth, var(--border-thin)) solid var(--ctp-text);
 
-  .box * {
-    color: inherit;
+    background-color: var(--ctp-mantle);
+    color: var(--ctp-text);
   }
 
   .box.invert {

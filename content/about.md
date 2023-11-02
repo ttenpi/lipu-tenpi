@@ -1,4 +1,4 @@
-# About jan Tenpi
+# About me
 
 hello world :Icon{name="mdi:hand-wave"} nice to meet you
 

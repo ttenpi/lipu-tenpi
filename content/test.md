@@ -21,20 +21,12 @@ Quo rem sit nam dolorem dolor cupiditate. Libero consequatur occaecati incidunt.
   <span style="font-size: var(--s4)">var(--s4)</span><br>
   <span style="font-size: var(--s5)">var(--s5)</span>
 ::
-
-## ELStack component
+## Every Layout components
+### ELStack
 
 Component `based` on [Every Layout: Stack](https://every-layout.dev/layouts/stack/) (license required for viewing).
 
-### Basic example
-
-```html
-<ELStack>
-  <h4>A heading</h4>
-  <img src="example.png" />
-  <p>Some text goes here.</p>
-</ELStack>
-```
+#### Basic example
 
 ::ELStack
 
@@ -43,4 +35,14 @@ Component `based` on [Every Layout: Stack](https://every-layout.dev/layouts/stac
 ![350x150 placeholder image](https://images.placeholders.dev/?width=350&height=100)
 
 Some text goes here. <span class="testing">It is a paragraph, which means it can contain lines, sentences, text, text, more text.</span> And so on, and so further.
+::
+
+### ELBox
+
+::ELBox
+hello world
+::
+
+::ELBox{invert}
+hello world
 ::
