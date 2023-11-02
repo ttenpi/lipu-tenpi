@@ -4,7 +4,10 @@
       $style.box,
       invert ? $style.invert : '',
     ]"
-    :style="{ '--padding': padding, '--borderWidth': borderWidth }"
+    :style="{
+      '--padding': padding,
+      '--borderWidth': borderWidth
+    }"
   >
     <slot />
   </div>
@@ -18,7 +21,7 @@
       invert?: boolean
     }>(),
     {
-      padding: "var(--s0)",
+      padding: "var(--s1)",
       borderWidth: 'var(--border-thin)',
       invert: false,
     }
@@ -27,8 +30,9 @@
 
 <style module>
   .box {
-    padding: var(--s0);
-    border: var(--border-thin) solid;
+    padding: var(--padding, var(--s0));
+    --border-thin: 2px;
+    border: var(--borderWidth, var(--border-thin)) solid;
     --color-light: #fff;
     --color-dark: #000;
     color: var(--color-dark);

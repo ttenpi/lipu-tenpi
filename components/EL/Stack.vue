@@ -5,7 +5,10 @@
       recursive ? $style.recursive : '',
       splitAfter ? $style.splitAfter : '',
     ]"
-    :style="{ '--space': space, '--splitAfter': splitAfter }"
+    :style="{
+      '--space': space,
+      '--splitAfter': splitAfter
+    }"
   >
     <slot />
   </div>
