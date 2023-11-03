@@ -5,9 +5,13 @@
 @import "sizing.css";
 @import "typography.css";
 
+:root {
+  --border-radius: var(--s-2);
+}
+
 .testing {
-  outline: 1px solid #f42069;
-  background-color: #f4206988;
+  outline: 1px solid #f4206988;
+  background-color: #f4206944;
   padding: 4px;
   margin: -4px;
   border-radius: 4px;

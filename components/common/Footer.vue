@@ -1,15 +1,17 @@
 <template>
-  <ELBox>
-    <footer>
-      <ELCenter andText>
-        <p>
-          <q title="random nonsense">{{ quote }}</q>
-        </p>
-        <p>tenpi is created by daph</p>
-        <small>code licensed under <a href="/LICENSE.txt">GPLv3</a></small>
-      </ELCenter>
-    </footer>
-  </ELBox>
+  <footer :class="$style.footer">
+    <div :class="$style.stickyContainer">
+      <ELBox :class="$style.box">
+        <ELCenter andText>
+          <p>
+            <q title="random nonsense">{{ quote }}</q>
+          </p>
+          <p>tenpi is created by daph</p>
+          <small>code licensed under <a href="/LICENSE.txt">GPLv3</a></small>
+        </ELCenter>
+      </ELBox>
+    </div>
+  </footer>
 </template>
 
 <script lang="ts" setup>
@@ -51,8 +53,27 @@
     "put an egg on it",
     "design!",
     "it keeps the fingies clean!",
-    "mu!"
+    "mu!",
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
 </script>
+
+<style module>
+  .footer {
+    block-size: calc(var(--s5) * 5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .stickyContainer {
+    position: sticky;
+    bottom: 0;
+  }
+
+  .box {
+    margin-block-end: var(--s0);
+  }
+</style>

@@ -13,6 +13,11 @@
 </script>
 
 <style>
+  :root {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) var(--ctp-subtext0);
+  }
+
   body {
     background: var(--ctp-crust);
     color: var(--ctp-text);

@@ -36,8 +36,9 @@
 <style module>
   .box {
     padding: var(--padding, var(--s1));
-    --border-thin: 2px;
-    border: var(--borderWidth, var(--border-thin)) solid var(--ctp-text);
+    --border-thin: 1px;
+    border: var(--borderWidth, var(--border-thin)) solid var(--ctp-surface0);
+    border-radius: var(--border-radius);
 
     background-color: var(--ctp-mantle);
     color: var(--ctp-text);
