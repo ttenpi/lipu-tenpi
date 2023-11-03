@@ -22,7 +22,7 @@
     "i think those are okay to explode",
     "ask your surgeon about SRS: skeleton removal surgery",
     "when in doubt, go to the uBlock Origin settings, then Filter Lists tab, then Purge all caches (shift-click to force), then Update now",
-    "for your health. (im not a doctor)",
+    "for your health. (disclaimer: im not a doctor)",
     "heavy 'heavy weapons guy' weapons guy",
     "🐄",
     "🐄",
@@ -34,7 +34,6 @@
     "i was born on my birthday",
     "(incorrect) (false) (misinfo) (fake news)",
     "time too is a social construct",
-    "please don't take absolutely everything i say seriously",
     "may eat your gender too",
     "may eat your pronouns too",
     "source: me",
@@ -50,7 +49,9 @@
     "canned gay?",
     "thank you very much.",
     "put an egg on it",
-    "design!"
+    "design!",
+    "it keeps the fingies clean!",
+    "mu!"
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
