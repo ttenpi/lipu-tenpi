@@ -70,12 +70,12 @@ a {
   color: var(--ctp-blue);
   text-decoration-color: var(--ctp-subtext0);
   text-decoration-line: underline;
-  text-decoration-thickness: 10%;
+  text-decoration-thickness: from-font;
   text-decoration-skip-ink: all;
 }
 
 a:hover {
-  text-decoration-thickness: 7.5%;
+  text-decoration-thickness: 10%;
 }
 
 /* code, pre */

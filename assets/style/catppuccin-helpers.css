@@ -115,3 +115,7 @@
   --ctp-mantle: var(--ctp-mocha-mantle);
   --ctp-crust: var(--ctp-mocha-crust);
 }
+
+* {
+  transition: background-color .3s;
+}
