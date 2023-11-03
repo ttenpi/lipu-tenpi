@@ -1,0 +1,146 @@
+/**
+ * @license
+ *
+ * Font Family: Poppins
+ * Designed by: Jonny Pinhorn, Indian Type Foundry
+ * URL: https://www.fontshare.com/fonts/poppins
+ * © 2023 Indian Type Foundry
+ *
+ * Font Styles:
+ * Poppins Variable(Variable font)
+ * Poppins Variable Italic(Variable font)
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 100.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Variable.woff2') format('woff2'),
+    url('../fonts/Poppins-Variable.woff') format('woff'),
+    url('../fonts/Poppins-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 100.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-VariableItalic.woff2') format('woff2'),
+    url('../fonts/Poppins-VariableItalic.woff') format('woff'),
+    url('../fonts/Poppins-VariableItalic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+/**
+ * @license
+ *
+ * Font Family: General Sans
+ * Designed by: Frode Helland
+ * URL: https://www.fontshare.com/fonts/general-sans
+ * © 2023 Indian Type Foundry
+ *
+ * Font Styles:
+ * General Sans Variable(Variable font)
+ * General Sans Variable Italic(Variable font)
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+    url('../fonts/GeneralSans-Variable.woff') format('woff'),
+    url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('../fonts/GeneralSans-VariableItalic.woff2') format('woff2'),
+    url('../fonts/GeneralSans-VariableItalic.woff') format('woff'),
+    url('../fonts/GeneralSans-VariableItalic.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: "Space Mono";
+  src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url('../fonts/SpaceMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url('../fonts/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url('../fonts/SpaceMono-BoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}

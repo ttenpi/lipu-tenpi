@@ -1,4 +1,5 @@
 @import "@catppuccin/palette/style";
+@import "fonts.css";
 @import "catppuccin-helpers.css";
 @import "reset.css";
 @import "sizing.css";

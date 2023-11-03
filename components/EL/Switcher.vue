@@ -21,7 +21,7 @@
       limit?: number
     }>(),
     {
-      threshold: "var(--measure)",
+      threshold: "30rem",
       space: "var(--s1)",
       limit: 4
     }

@@ -2,14 +2,17 @@
   --measure: 70ch;
   --font-size-adapt: .333vw;
   --line-height: 1.6;
-  --font-plain: sans-serif;
+  --font-body: "General Sans", sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-code: "Space Mono", monospace;
   font-size: var(--s0);
 }
 
 /* fonts */
 
 body {
-  font-family: var(--font-plain);
+  font-family: var(--font-body);
+  font-weight: 420;
   /* 1rem at minimum, so it never drops below the system/browser/user defined value */
   line-height: var(--line-height);
 }
@@ -53,6 +56,8 @@ h2,
 h3,
 h4 {
   color: var(--ctp-mauve);
+  font-family: var(--font-display);
+  font-weight: 666;
 }
 
 :is(h1, h2, h3, h4) a {
@@ -60,7 +65,25 @@ h4 {
   text-decoration: none;
 }
 
+/* links */
+a {
+  color: var(--ctp-blue);
+  text-decoration-color: var(--ctp-text);
+  text-decoration-line: underline;
+  text-decoration-thickness: 10%;
+  text-decoration-skip-ink: all;
+}
+
+a:hover {
+  text-decoration-thickness: 7%;
+}
+
 /* code, pre */
+
+code,
+pre {
+  font-family: var(--font-code);
+}
 
 pre code .line+.line {
   line-height: 1.5;
