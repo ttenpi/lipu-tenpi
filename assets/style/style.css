@@ -16,3 +16,7 @@
   margin: -4px;
   border-radius: 4px;
 }
+
+#nuxt-devtools-iframe {
+  max-inline-size: unset;
+}
