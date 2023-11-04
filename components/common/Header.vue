@@ -4,8 +4,9 @@
       <ELSwitcher>
         <div>daph</div>
         <div><NuxtLink to="/">home</NuxtLink></div>
-        <div><NuxtLink to="/about">about</NuxtLink></div>
+        <!-- <div><NuxtLink to="/about">about</NuxtLink></div> -->
         <div>
+          theme:
           <select v-model="$colorMode.preference">
             <option value="system">System</option>
             <option value="light">Light</option>
