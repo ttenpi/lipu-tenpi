@@ -8,6 +8,7 @@
           </p>
           <p>created by daph</p>
           <small>code licensed under <a href="/LICENSE.txt">GPLv3</a></small>
+          <small>this website is under construction</small>
         </ELCenter>
       </ELBox>
     </div>
