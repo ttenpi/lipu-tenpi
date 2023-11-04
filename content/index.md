@@ -1,6 +1,8 @@
 # Hello Content
 
-this site is under construction
+::ELBox{invert}
+:construction: this site is under construction
+::
 
 [go directly to **toki pona categorised cheat sheet**](/tokipona/catdict)
 

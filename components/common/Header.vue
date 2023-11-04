@@ -2,7 +2,7 @@
   <header :class="$style.header">
     <ELBox>
       <ELSwitcher>
-        <div>daph</div>
+        <div class="font-display">daph</div>
         <div><NuxtLink to="/">home</NuxtLink></div>
         <!-- <div><NuxtLink to="/about">about</NuxtLink></div> -->
         <div>
