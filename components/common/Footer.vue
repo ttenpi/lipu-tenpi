@@ -43,6 +43,7 @@
     "you say this but have you ever lined up a bunch of burgers into a grid and rested your face on it like a pillow?",
     "@staff-alert",
     "daph 'banned from the usa' Lastname",
+    "daph 'ceo of antifa glitch city' Lastname",
     "tongue not for biting !",
     "someone please watch my lettuce while im away 🥬",
     "you look so structurally unsound, imma call OSHA",
@@ -54,6 +55,7 @@
     "design!",
     "it keeps the fingies clean!",
     "mu!",
+    "i wake up, i go online, post absurdities, and eat snacks"
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
@@ -62,12 +64,11 @@
 <style module>
   .footer {
     block-size: calc(var(--s5) * 5);
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
-  
+
   .stickyContainer {
     position: sticky;
     bottom: 0;
