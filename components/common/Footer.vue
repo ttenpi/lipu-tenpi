@@ -7,8 +7,8 @@
             <q title="random nonsense">{{ quote }}</q>
           </p>
           <p>designed by daph in the netherlands</p>
-          <small>code licensed under <a href="/LICENSE.txt">GPLv3</a></small>
-          <small>this website is under construction</small>
+          <p><small>code licensed under <NuxtLink href="/LICENSE.txt" target="_blank">GPLv3</NuxtLink> available <NuxtLink href="https://github.com/daphatmidnight/lipu-tenpi" target="_blank">on GitHub <Icon name="mdi:github-box"/></NuxtLink></small></p>
+          <p><small title="meaning, severely unfinished, and quite broken in some places">this website is under construction</small></p>
         </ELCenter>
       </ELBox>
     </div>
