@@ -6,8 +6,8 @@
         <div><NuxtLink to="/">home</NuxtLink></div>
         <!-- <div><NuxtLink to="/about">about</NuxtLink></div> -->
         <div>
-          theme:
-          <select v-model="$colorMode.preference">
+          <label for="colorModePreference">theme:</label>
+          <select v-model="$colorMode.preference" id="colorModePreference">
             <option value="system">System</option>
             <option value="light">Light</option>
             <option value="dark">Dark</option>
