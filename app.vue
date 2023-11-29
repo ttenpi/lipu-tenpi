@@ -21,5 +21,7 @@
   body {
     background: var(--ctp-crust);
     color: var(--ctp-text);
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
   }
 </style>
