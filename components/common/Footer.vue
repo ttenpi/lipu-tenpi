@@ -2,14 +2,77 @@
   <footer :class="$style.footer">
     <div :class="$style.stickyContainer">
       <ELBox :class="$style.box">
-        <ELCenter andText>
-          <p>
-            <q title="random nonsense">{{ quote }}</q>
-          </p>
-          <p>designed by daph in the netherlands</p>
-          <p><small>code licensed under <NuxtLink href="/LICENSE.txt" target="_blank">GPLv3</NuxtLink> available <NuxtLink href="https://github.com/daphatmidnight/lipu-tenpi" target="_blank">on GitHub <Icon name="mdi:github-box"/></NuxtLink></small></p>
-          <p><small title="meaning, severely unfinished, and quite broken in some places">this website is under construction</small></p>
-        </ELCenter>
+        <ELStack>
+          <ELCenter andText>
+            <p>
+              <q title="random nonsense">{{ quote }}</q>
+            </p>
+            <p>designed by daph in the netherlands</p>
+            <p>
+              <small
+                >code licensed under
+                <NuxtLink href="/LICENSE.txt" target="_blank">GPLv3</NuxtLink>
+                available
+                <NuxtLink
+                  href="https://github.com/daphatmidnight/lipu-tenpi"
+                  target="_blank"
+                  >on GitHub <Icon name="mdi:github-box" /></NuxtLink
+              ></small>
+            </p>
+            <p>
+              <small
+                title="meaning, severely unfinished, and quite broken in some places"
+                >this website is under construction</small
+              >
+            </p>
+          </ELCenter>
+
+          <!-- pro-advertising section -->
+          <ELBox
+            id="ad_container"
+            style="
+              border-color: var(--ctp-yellow);
+              border-width: 4px;
+              font-size: var(--s-1);
+            ">
+            <p class="font-display">
+              <Icon name="ph:circle-wavy-warning-fill" /> Blocking ads is good!
+            </p>
+            <p>
+              Security experts around the world &mdash;
+              <NuxtLink
+                to="https://techcrunch.com/2022/12/22/fbi-ad-blocker/"
+                target="_blank"
+                >including cybersecurity agencies</NuxtLink
+              >
+              &mdash; recommend that internet users use an ad/content blocker to
+              protect themselves against scams, malware and surveillance.
+            </p>
+            <p>
+              <strong
+                ><NuxtLink
+                  to="https://www.w3.org/TR/ethical-web-principles/#render"
+                  target="_blank"
+                  >The user decides what web content is acceptable in their
+                  browser.</NuxtLink
+                ></strong
+              >
+            </p>
+            <p>
+              <strong
+                >Adblocking is not theft. Advertisers don't have a right to the
+                internet; only a privilege.</strong
+              >
+            </p>
+            <p>
+              Get yourself a good ad blocker such as
+              <NuxtLink href="https://ublockorigin.com/" target="_blank"
+                >uBlock Origin</NuxtLink
+              >.
+            </p>
+          </ELBox>
+          <!-- end pro-advertising section -->
+        </ELStack>
       </ELBox>
     </div>
   </footer>
@@ -56,7 +119,7 @@
     "design!",
     "it keeps the fingies clean!",
     "mu!",
-    "i wake up, i go online, post absurdities, and eat snacks"
+    "i wake up, i go online, post absurdities, and eat snacks",
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
@@ -64,7 +127,7 @@
 
 <style module>
   .footer {
-    block-size: calc(var(--s5) * 5);
+    block-size: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
