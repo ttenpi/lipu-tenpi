@@ -9,21 +9,22 @@
             </p>
             <p>designed by daph in the netherlands</p>
             <p>
-              <small
-                >code licensed under
+              <small>
+                code licensed under
                 <NuxtLink href="/LICENSE.txt" target="_blank">GPLv3</NuxtLink>
                 available
                 <NuxtLink
                   href="https://github.com/daphatmidnight/lipu-tenpi"
-                  target="_blank"
-                  >on GitHub <Icon name="mdi:github-box" /></NuxtLink
-              ></small>
+                  target="_blank">
+                  on GitHub <Icon name="mdi:github-box" />
+                </NuxtLink>
+              </small>
             </p>
             <p>
               <small
-                title="meaning, severely unfinished, and quite broken in some places"
-                >this website is under construction</small
-              >
+                title="meaning, severely unfinished, and quite broken in some places">
+                this website is under construction
+              </small>
             </p>
           </ELCenter>
 
@@ -42,9 +43,9 @@
               Security experts around the world &mdash;
               <NuxtLink
                 to="https://techcrunch.com/2022/12/22/fbi-ad-blocker/"
-                target="_blank"
-                >including cybersecurity agencies</NuxtLink
-              >
+                target="_blank">
+                including cybersecurity agencies
+              </NuxtLink>
               &mdash; recommend that internet users use an ad/content blocker to
               protect themselves against scams, malware and surveillance.
             </p>
@@ -52,23 +53,24 @@
               <strong
                 ><NuxtLink
                   to="https://www.w3.org/TR/ethical-web-principles/#render"
-                  target="_blank"
-                  >The user decides what web content is acceptable in their
-                  browser.</NuxtLink
-                ></strong
+                  target="_blank">
+                  The user decides what web content is acceptable in their
+                  browser.
+                </NuxtLink></strong
               >
             </p>
             <p>
-              <strong
-                >Adblocking is not theft. Advertisers don't have a right to the
-                internet; only a privilege.</strong
-              >
+              <strong>
+                Adblocking is not theft. Advertisers don't have a right to the
+                internet; only a privilege.
+              </strong>
             </p>
             <p>
               Get yourself a good ad blocker such as
-              <NuxtLink href="https://ublockorigin.com/" target="_blank"
-                >uBlock Origin</NuxtLink
-              >.
+              <NuxtLink href="https://ublockorigin.com/" target="_blank">
+                uBlock Origin
+              </NuxtLink>
+              .
             </p>
           </ELBox>
           <!-- end pro-advertising section -->
