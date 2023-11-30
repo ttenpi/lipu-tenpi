@@ -26,6 +26,7 @@ _note._ a version based on the 2023 linku survey results is coming soon:tm:.
 
 * original [single-sheet dictionary cheat sheet](https://blinry.org/toki-pona-cheat-sheet/) by blinry (CC0 license)
 * vocab definitions mostly from [this cheet sheet](https://jansa-tp.github.io/cheatsheet) by jan Sa and contributors jan Deni, jan Kekan San, jan Seli, and jan Ke Tami (CC0 license)
+* [the Linku project](https://linku.la/) by kala Asi and all contributors for usage data
 * font [linja suwi](https://linjasuwi.ap5.dev/) by jan Ana (OFL license)
 * font [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) by Braille Institute of America, Inc. ([license](https://brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf))
 * anyone who gave me feedback on this
