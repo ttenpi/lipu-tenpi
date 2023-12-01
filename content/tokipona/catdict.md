@@ -22,6 +22,12 @@ _disclaimer._ some choices in the categorisation here are arbitrary and opiniona
 
 _note._ a version based on the 2023 linku survey results is coming soon:tm:.
 
+## contribute
+
+feel free to reach out to me and discuss changes.
+
+_note._ later i really should make the Figma file/link available.
+
 ## credits
 
 * original [single-sheet dictionary cheat sheet](https://blinry.org/toki-pona-cheat-sheet/) by blinry (CC0 license)
