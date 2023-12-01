@@ -7,7 +7,10 @@
             <p>
               <q title="random nonsense">{{ quote }}</q>
             </p>
-            <p>designed by daph in the netherlands</p>
+            <p>
+              designed by daph <Icon name="twemoji:transgender-flag" /> in the
+              netherlands
+            </p>
             <p>
               <small>
                 code licensed under
