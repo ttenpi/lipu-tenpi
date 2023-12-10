@@ -2,9 +2,12 @@
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <SpeedInsights />
 </template>
 
 <script setup lang="ts">
+  import { SpeedInsights } from "@vercel/speed-insights/vue"
+
   useHead({
     titleTemplate: (titleChunk) => {
       return titleChunk ? `${titleChunk} – tenpi` : "jan tenpi"
