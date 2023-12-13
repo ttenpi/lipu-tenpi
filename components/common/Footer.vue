@@ -19,14 +19,13 @@
                 <NuxtLink
                   href="https://github.com/daphatmidnight/lipu-tenpi"
                   target="_blank">
-                  on GitHub <Icon name="mdi:github-box" />
+                  on <Icon name="bi:github" /> GitHub
                 </NuxtLink>
               </small>
             </p>
             <p>
-              <small
-                title="meaning, severely unfinished, and quite broken in some places">
-                this website is under construction
+              <small>
+                this website is under construction &middot; <NuxtLink to="/test">test</NuxtLink>
               </small>
             </p>
           </ELCenter>
