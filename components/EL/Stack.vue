@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.stack,
       recursive ? $style.recursive : '',
@@ -11,17 +12,19 @@
     }"
   >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       space?: string
       recursive?: boolean
       splitAfter?: number
     }>(),
     {
+      tag: "div",
       space: "var(--s0)",
       recursive: false,
       splitAfter: 0,

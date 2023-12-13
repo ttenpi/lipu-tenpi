@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.cover,
       noPadding ? '' : $style.noPadding
@@ -10,17 +11,19 @@
     }"
   >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       space?: string
       minHeight?: string
       noPadding?: boolean
     }>(),
     {
+      tag: "div",
       space: "var(--s1)",
       minHeight: "100vh",
       noPadding: false,

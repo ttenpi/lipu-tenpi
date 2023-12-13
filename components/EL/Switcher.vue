@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.switcher,
     ]"
@@ -10,17 +11,19 @@
     }"
   >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       threshold?: string
       space?: string
       limit?: number
     }>(),
     {
+      tag: "div",
       threshold: "30rem",
       space: "var(--s1)",
       limit: 4

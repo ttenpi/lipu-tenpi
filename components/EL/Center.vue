@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.center,
       andText ? $style.andText : '',
@@ -10,18 +11,20 @@
       '--gutters': gutters
     }">
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       max?: string
       andText?: boolean
       gutters?: string
       intrinsic?: boolean
     }>(),
     {
+      tag: "div",
       max: "var(--measure)",
       andText: false,
       gutters: "0",

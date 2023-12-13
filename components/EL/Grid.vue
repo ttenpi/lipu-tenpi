@@ -1,19 +1,22 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[$style.grid]"
     :style="{
       '--space': space,
       '--min': min,
-    }"></div>
+    }"></component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       space?: string
       min?: string
     }>(),
     {
+      tag: "div",
       space: "var(--s1)",
       min: "250px",
     }

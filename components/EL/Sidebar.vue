@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.sidebar,
       side === 'left' ? $style.left : '',
@@ -14,12 +15,13 @@
   >
     <slot name="side" />
     <slot name="content" />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       side?: string
       sideWidth?: string
       contentMin?: string
@@ -27,6 +29,7 @@
       noStretch?: boolean
     }>(),
     {
+      tag: "div",
       side: "left",
       sideWidth: "",
       contentMin: "50%",

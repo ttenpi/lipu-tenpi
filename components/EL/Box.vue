@@ -1,22 +1,25 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[$style.box, invert ? colorModeClass : '']"
     :style="{
       '--padding': padding,
       '--borderWidth': borderWidth,
     }">
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       padding?: string
       borderWidth?: string
       invert?: boolean
     }>(),
     {
+      tag: "div",
       padding: "var(--s1)",
       borderWidth: "var(--border-thin)",
       invert: false,

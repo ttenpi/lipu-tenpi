@@ -1,18 +1,21 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :style="{
       '--ratio': numerator / denominator,
     }">
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   const props = withDefaults(
     defineProps<{
+      tag?: string
       ratio?: string
     }>(),
     {
+      tag: "div",
       ratio: "16:9",
     }
   )

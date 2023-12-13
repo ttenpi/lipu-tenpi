@@ -1,5 +1,6 @@
 <template>
-  <div
+  <component
+    :is="tag"
     :class="[
       $style.cluster,
     ]"
@@ -10,17 +11,19 @@
     }"
   >
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
   withDefaults(
     defineProps<{
+      tag?: string
       justify?: string
       align?: string
       space?: string
     }>(),
     {
+      tag: "div",
       justify: "flex-start",
       align: "flex-start",
       space: "var(--s1)",
