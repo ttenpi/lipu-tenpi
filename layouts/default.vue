@@ -1,5 +1,5 @@
 <template>
-  <ELCenter>
+  <ELCenter :class="$style.mainContainer">
     <ELStack>
       <CommonHeader />
       <ELBox>
@@ -9,3 +9,9 @@
     </ELStack>
   </ELCenter>
 </template>
+
+<style module>
+  .mainContainer {
+    margin-block-start: var(--s0);
+  }
+</style>

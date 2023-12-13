@@ -1,5 +1,5 @@
 <template>
-  <header :class="$style.header">
+  <header>
     <ELBox>
       <ELSwitcher :class="$style.headerContainer" space="var(--s-1)">
         <div class="font-display">
@@ -24,7 +24,7 @@
           </ul>
         </nav>
 
-        <div :class="[$style.headerEnd, $style.flexboxEnd]">
+        <div :class="$style.headerEnd">
           <div>
             <label for="colorModePreference">theme:</label>
             <select v-model="$colorMode.preference" id="colorModePreference">
@@ -44,10 +44,6 @@
 </template>
 
 <style module>
-  .header {
-    margin-block-start: var(--s0);
-  }
-
   .headerContainer {
     align-items: center;
   }
