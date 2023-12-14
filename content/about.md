@@ -8,9 +8,9 @@ my name is **daph** aka **day** aka [**<span lang="tok-Latn">jan tenpi</span>**]
 
 i am :Icon{name="twemoji:transgender-flag"} trans female, nonbinary, gendervoid and femflux and pronouns are she/her they/them [mu/mu](https://en.pronouns.page/mu/muu/muu/muuuses/muuuself){style="color: var(--ctp-text)"} <small>repeat U as many time as you wish, disregard logic or grammatical correctness</small>
 
-## follow me\*
+## i'm also on these sites
 
-\* in a normal internet-like type of following, you know, on the internet.
+follow me! in a normal internet-like type of following, you know, on the internet.
 
 - :Icon{name="mdi:mastodon"} [**main mastodon**](https://tech.lgbt/@daph): `@daph@tech.lgbt`
 - :Icon{name="mdi:mastodon"} [**toki pona mastodon**](https://toki.social/@daph): `@daph@toki.social`
