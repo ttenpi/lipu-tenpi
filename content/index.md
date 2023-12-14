@@ -16,5 +16,3 @@
 ```
 
 [this is a [test]{style="color: hotpink;"}](/test)
-
-<!-- go to [about](/about) -->

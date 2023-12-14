@@ -7,7 +7,7 @@
 
       <nav :class="$style.headerCenter">
         <ul>
-          <li><NuxtLink to="/about">about</NuxtLink></li>
+          <li><NuxtLink to="/mi">about</NuxtLink></li>
           <!-- <li><NuxtLink to="/blog">blog</NuxtLink></li>
             <li><NuxtLink to="/projects">projects</NuxtLink></li> -->
           <li>
