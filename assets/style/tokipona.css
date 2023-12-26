@@ -51,6 +51,7 @@ h6 :lang("tok-Latn") {
 /* toki pona - sitelen pona */
 
 :lang("tok-x-stlnpona"),
+[lang="tok-x-stlnpona"],
 .font-tp-sp {
   font-family: "Fairfax Pona HD", cursive;
   font-size: 1.5rem;
@@ -75,6 +76,8 @@ rtc mark {
 }
 
 /* quotation marks */
-:lang("tok-x-stlnpona") q {
+:lang("tok-x-stlnpona") q,
+[lang="tok-x-stlnpona"] q {
   quotes: "te" "to";
 }
+/* should a sitelen Lasina quote look like "te "toki toki toki" to"? */
