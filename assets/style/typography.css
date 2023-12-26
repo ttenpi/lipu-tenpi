@@ -73,7 +73,7 @@ a {
   color: var(--ctp-blue);
   text-decoration-color: var(--ctp-subtext0);
   text-decoration-line: underline;
-  text-decoration-thickness: 10%;
+  text-decoration-thickness: var(--border-thin);
   text-decoration-skip-ink: all;
 }
 
