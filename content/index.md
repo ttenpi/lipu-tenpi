@@ -2,7 +2,7 @@
 
 you have found yourself at my web of sites, greetings! hi! make yourself comfortable!
 
-let me quickly introduce myself, my name is **daph** and i am that dutch trans girl cow thing eating up all the things in *your* pantry. [more about me in my **about**.](/mi)
+let me quickly introduce myself, my name is **daph** and i am that dutch trans girl cow thing eating up all the things in _your_ pantry. [more about me in my **about**.](/mi)
 
 ::ELBox{padding="var(--s-1)"}
 :construction: this site is under construction

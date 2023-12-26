@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "stylesheet",
-          href: "https://api.fontshare.com/v2/css?f[]=general-sans@701,1,2,401,400,700&f[]=poppins@2,900,901,701,401,400,1,700&display=swap",
+          href: "https://api.fontshare.com/v2/css?f[]=general-sans@701,1,2,401,400,700&f[]=poppins@2,900,901,701,401,400,1,700&f[]=nunito@700,501,701,401,400,500,900,901,1,2&display=swap",
         },
         {
           rel: "stylesheet",

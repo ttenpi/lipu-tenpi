@@ -3,13 +3,15 @@
 @import "reset.css";
 @import "sizing.css";
 @import "typography.css";
+@import "tokipona.css";
 
 :root {
   --border-radius: var(--s-2);
   --border-thin: 2px;
 }
 
-mark, .testing {
+mark,
+.testing {
   outline: var(--border-thin) solid #f4206988;
   background-color: #f4206944;
   color: currentColor;

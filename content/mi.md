@@ -3,10 +3,10 @@
 hello world :Icon{name="mdi:hand-wave"} nice to meet you, i'm silly, and you've found yourself on my silly site <small>as opposed to a serious site i maybe do/maybe don't have</small>
 
 ::ELCenter
-my name is **daph** aka **day** aka [**<span lang="tok-Latn">jan tenpi</span>**](/tokipona/nimi_mi){style="color: var(--ctp-text)"}
+⚞ my name is **daph** aka **day** aka [**<span lang="tok-Latn">jan tenpi</span>**](/tokipona/nimi_mi){style="color: var(--ctp-text)"} ⚟
 ::
 
-i am :Icon{name="twemoji:transgender-flag"} trans female, nonbinary, gendervoid and femflux and [pronouns](https://en.pronouns.page/@daph) are she/her they/them [mu/mu](https://en.pronouns.page/mu/muu/muu/muuuses/muuuself){style="color: var(--ctp-text)"} <small>repeat U as many time as you wish, disregard logic or grammatical correctness</small>
+i am :Icon{name="twemoji:transgender-flag"} trans female, nonbinary, gendervoid and femflux and [pronouns](https://en.pronouns.page/@daph) are she/her they/them [mu/mu](https://en.pronouns.page/mu/muu/muu/muuuses/muuuself){style="color: var(--ctp-text)" lang="tok-Latn"} <small>repeat U as many time as you wish, disregard logic or grammatical correctness</small>
 
 ## i'm also on these sites
 
@@ -18,10 +18,11 @@ follow me! in a normal internet-like type of following, you know, on the interne
 - :Icon{name="ph:virtual-reality-fill"} [**vrchat**](https://vrchat.com/home/user/usr_0779c930-22a2-473b-8b26-35f2e4a2fbe6): `dayatmidnight`
 - :Icon{name="bi-steam"} [**steam**](https://steamcommunity.com/id/dayatmidnight/): `dayatmidnight`
 
-::ELBox
-here's some places where i am not:
-> **twitter** (because it stinks and the owner stinks) <small>(bad stink)</small><br>
-> **facebook** <small>(and any other facebook product)</small> (because they are war criminals) (also they banned me for changing my name)
+::ELBox{padding="var(--s0)"}
+here's some places where i am not, and will likely never be:
+- **twitter** (because it stinks and the owner stinks) <small>(bad stink)</small>
+- **facebook** <small>(and any other facebook product)</small> (because they are war criminals) (also they banned me for changing my name)
+- **bluesky** (because it's twitter 2.0 and funded by cryptobros pushing bad ideas)
 ::
 
 ## more about me

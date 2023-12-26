@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "linja suwi";
+  src: url("../fonts/linjasuwi.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nasin nanpa";
+  src: url("../fonts/nasin-nanpa-2.7.1.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fairfax Pona HD";
+  src: url("../fonts/FairfaxPonaHD.eot");
+  src: url("../fonts/FairfaxPonaHD.ttf") format("truetype");
+}
+
+/* toki pona - sitelen Lasina */
+
+:lang("tok-Latn"),
+.font-tp-sl {
+  font-family: Nunito, cursive;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+strong:lang("tok-Latn"),
+b:lang("tok-Latn"),
+strong :lang("tok-Latn"),
+b :lang("tok-Latn"),
+strong.font-tp-sl,
+b.font-tp-sl {
+  font-family: Nunito, cursive;
+  font-weight: 900;
+}
+
+h1 :lang("tok-Latn"),
+h2 :lang("tok-Latn"),
+h3 :lang("tok-Latn"),
+h4 :lang("tok-Latn"),
+h5 :lang("tok-Latn"),
+h6 :lang("tok-Latn") {
+  font-weight: 800;
+}
+
+/* toki pona - sitelen pona */
+
+:lang("tok-x-stlnpona"),
+.font-tp-sp {
+  font-family: "Fairfax Pona HD", cursive;
+  font-size: 1.5rem;
+  font-feature-settings: "kern", "cv70", "cv77", "cv80", "cv90", "cv91", "ss19";
+  word-break: keep-all;
+}
+
+/* ruby annotations */
+rt,
+rtc {
+  font-size: 50% !important;
+}
+
+rt *,
+rtc * {
+  font-size: inherit !important;
+}
+
+rt mark,
+rtc mark {
+  display: inline-flex;
+}
+
+/* quotation marks */
+:lang("tok-x-stlnpona") q {
+  quotes: "te" "to";
+}

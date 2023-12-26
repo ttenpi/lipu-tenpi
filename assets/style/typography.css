@@ -1,6 +1,6 @@
 :root {
   --measure: 70ch;
-  --font-size-adapt: .333vw;
+  --font-size-adapt: 0.333vw;
   --line-height: 1.6;
   --font-body: "General Sans", sans-serif;
   --font-display: "Poppins", sans-serif;
@@ -88,7 +88,7 @@ pre {
   font-family: var(--font-code);
 }
 
-pre code .line+.line {
+pre code .line + .line {
   line-height: 1.5;
   margin-block-start: 0;
 }
