@@ -25,7 +25,8 @@
             </p>
             <p>
               <small>
-                this website is under construction &middot; <NuxtLink to="/test">test</NuxtLink>
+                this website is under construction &middot;
+                <NuxtLink to="/test">test</NuxtLink>
               </small>
             </p>
           </ELCenter>
@@ -124,6 +125,7 @@
     "it keeps the fingies clean!",
     "mu!",
     "i wake up, i go online, post absurdities, and eat snacks",
+    "daph 'Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation' Lastname",
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
