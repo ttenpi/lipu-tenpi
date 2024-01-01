@@ -1,8 +1,14 @@
 <template>
-  <ELBox tag="header">
+  <ELBox padding="var(--s-1)" tag="header">
     <ELSwitcher :class="$style.headerContainer" space="var(--s-1)">
       <div class="font-display">
-        <NuxtLink to="/" style="color: var(--color-primary)">tenpi</NuxtLink>
+        <NuxtLink
+          to="/"
+          title="tenpi (link to homepage)"
+          style="color: var(--color-primary); text-decoration-line: none">
+          <Icon name="IconsTenpiSquare" size="45px" />
+          tenpi
+        </NuxtLink>
       </div>
 
       <nav :class="$style.headerCenter">
