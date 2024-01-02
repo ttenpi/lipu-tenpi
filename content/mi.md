@@ -27,8 +27,6 @@ here's some places where i am not, and will likely never be:
 
 ## more about me
 
-since november 2022 i have been staff on *the biggest online trans chatroom* (at least on Discord) which is :Icon{name="IconsTranspeak" width="1.5em" height="1.5em"} [**Transpeak**](https://discord.gg/transpeak). feel free to take a look if ur trans or nonbiney or gnc, maybe you'll like it there. (the chat is all ages 13+, so please keep it clean)
-
 i also am a vtuber but maybe i'll add more about that later, if i finish my new avatar and stop being on hiatus
 
 if you see me using a :Icon{name="noto-v1:cow"} cow emoji, feel free to moo/<span lang="tok-Latn">mu</span>!
