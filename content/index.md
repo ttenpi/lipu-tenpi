@@ -8,9 +8,9 @@ let me quickly introduce myself, my name is **daph** and i am that dutch trans g
 :construction: this site is under construction
 ::
 
-:Icon{name="IconsTokiPona"} [go directly to **toki pona categorised cheat sheet**](/tokipona/catdict)
+:Icon{name="IconsTokiPona"} [go directly to **[toki pona]{lang="tok-Latn"} categorised cheat sheet**](/tokipona/catdict)
 
-:Icon{name="IconsTokiPona"} [or watch my toki pona translation and cover of **tezeta by king gizzard** :Icon{name="mdi:youtube"}](https://www.youtube.com/watch?v=jgET_38iWaU)
+:Icon{name="IconsTokiPona"} [or watch my [toki pona]{lang="tok-Latn"} translation and cover of **tezeta by king gizzard** :Icon{name="mdi:youtube"}](https://www.youtube.com/watch?v=jgET_38iWaU)
 
 <figure>
   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3570Pc1D39i32mCa4yXaMc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
