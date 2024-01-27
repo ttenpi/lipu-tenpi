@@ -26,6 +26,7 @@
   --ctp-base: var(--ctp-latte-base);
   --ctp-mantle: var(--ctp-latte-mantle);
   --ctp-crust: var(--ctp-latte-crust);
+  color-scheme: light;
 }
 
 .frappe-theme {
@@ -114,6 +115,13 @@
   --ctp-base: var(--ctp-mocha-base);
   --ctp-mantle: var(--ctp-mocha-mantle);
   --ctp-crust: var(--ctp-mocha-crust);
+}
+
+.frappe-theme,
+.macchiato-theme,
+.mocha-theme,
+.dark-theme {
+  color-scheme: dark;
 }
 
 * {
