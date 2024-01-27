@@ -29,6 +29,10 @@ Toki Pona - sitelen pona:
 
 ### sitelen pona
 
+::TP{sp}
+toki toki
+::
+
 [Read more about Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
 
 #### sandbox
@@ -40,7 +44,7 @@ cartouched names
 
 > <span lang="tok-x-stlnpona">jan \[tonsi en nanpa pan ijo\]<br />
 > tonsi \[tonsi en:: pi:: \]<br />
-> \[ten2::pi::]</span>
+> \[ten2....pi::]</span>
 
 combined characters
 
@@ -60,9 +64,9 @@ extended prepositions and <span lang="tok-Latn">pi</span> <span lang="tok-x-stln
 
 manual override alternatives (and some interesting rare <i lang="tok-Latn">sitelen</i>, it's just a sandbox more or less)
 
-> <span lang="tok-x-stlnpona">toki+pona akesi akesi1 namako namako1 wile wile1 jaki jaki jaki jaki-jaki jaki+jaki mu mu1 mu2 to kijetesantakalu $ uta uta1 sike lanpan<br />
-> tonsi kamalawala misa4 misa2 misa puwa ijo+ni+li+seme toki+pona toki-pona jans wuwojiti enko enko2 lape<br />
-> sona-pona la to</span>
+> <span lang="tok-x-stlnpona">toki+pona&#8203;akesi&#8203;akesi1&#8203;namako&#8203;namako1&#8203;wile&#8203;wile1&#8203;jaki&#8203;jaki&#8203;jaki&#8203;jaki-jaki&#8203;jaki+jaki&#8203;mu&#8203;mu1&#8203;mu2&#8203;to&#8203;kijetesantakalu&#8203;$&#8203;uta&#8203;uta1&#8203;sike&#8203;lanpan<br />
+> tonsi&#8203;kamalawala&#8203;misa4&#8203;misa2&#8203;misa&#8203;puwa&#8203;ijo+ni+li+seme&#8203;toki+pona&#8203;toki-pona&#8203;jans&#8203;wuwojiti&#8203;enko&#8203;enko2&#8203;lape<br />
+> sona-pona&#8203;la&#8203;to</span>
 
 `<q>` tag
 
@@ -92,6 +96,24 @@ preferred alternatives
 stylesheet settings
 
 > <span lang="tok-x-stlnpona">akesi kala soko meso epiku jaki jaki jaki jaki mi sina ona</span>
+
+#### the `<TP>` component
+
+sitelen Lasina
+
+> [toki jan ale o]{.tp-sl}
+
+::TP
+toki jan ale o
+::
+
+sitelen pona
+
+> [toki jan ale o]{.tp-sp}
+
+::TP{sp}
+toki jan ale o
+::
 
 ## Sizing
 
