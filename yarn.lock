@@ -6833,6 +6833,11 @@ type-fest@^3.8.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
   integrity sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==
 
+ucsur-sitelen-pona@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ucsur-sitelen-pona/-/ucsur-sitelen-pona-1.0.1.tgz#ea51507da9dc5970ca4f98eaab03d126ccdebaa6"
+  integrity sha512-4rdYDOVOM1BVuHoGoRC3Ktk5c7S92C1OV23+HA3EgDlpn9KoHHxdDusFVBk0Y/bYdeef49MwqAiy+Pi+ruH9vg==
+
 ufo@^0.8.4, ufo@^0.8.5, ufo@^0.8.6:
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.6.tgz#c0ec89bc0e0c9fa59a683680feb0f28b55ec323b"
