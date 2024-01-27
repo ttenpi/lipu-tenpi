@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  /* https://defensivecss.dev/tip/flexbox-min-content-size/ */
+  /* https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/#the-minimum-size-gotcha-11 */
+  /* min-inline-size: 0; */
 }
 
 body,

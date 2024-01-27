@@ -1,0 +1,20 @@
+:root {
+  accent-color: var(--color-primary);
+  scrollbar-gutter: stable both-edges;
+}
+
+.aspect-ratio-hd {
+  aspect-ratio: 16/9;
+}
+
+.aspect-ratio-square {
+  aspect-ratio: 1;
+}
+
+[id] {
+  scroll-margin-top: 2rem;
+}
+
+.fit-content {
+  width: fit-content;
+}

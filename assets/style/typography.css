@@ -5,7 +5,6 @@
   --font-body: "General Sans", sans-serif;
   --font-display: "Poppins", sans-serif;
   --font-code: "Space Mono", monospace;
-  --color-primary: var(--ctp-mauve);
   font-size: var(--s0);
 }
 
@@ -61,6 +60,7 @@ h4,
   font-family: var(--font-display);
   font-weight: 666;
   line-height: 1.2;
+  text-wrap: balance;
 }
 
 :is(h1, h2, h3, h4) a {
@@ -68,17 +68,27 @@ h4,
   text-decoration: none;
 }
 
+/* paragraphs */
+
+p {
+  text-wrap: pretty;
+}
+
 /* links */
+
 a {
   color: var(--ctp-blue);
   text-decoration-color: var(--ctp-subtext0);
   text-decoration-line: underline;
   text-decoration-thickness: var(--border-thin);
   text-decoration-skip-ink: all;
+  text-underline-offset: 0.25em;
+  transition: text-underline-offset 0.1s ease-in-out;
 }
 
 a:hover {
-  text-decoration-thickness: from-font;
+  /* text-decoration-thickness: from-font; */
+  text-underline-offset: 0.05em;
 }
 
 /* code, pre */

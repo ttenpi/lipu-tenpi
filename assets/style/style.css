@@ -2,10 +2,13 @@
 @import "catppuccin-helpers.css";
 @import "reset.css";
 @import "sizing.css";
+@import "oneliners.css";
 @import "typography.css";
 @import "tokipona.css";
 
 :root {
+  --color-primary: var(--ctp-mauve);
+
   --border-radius: var(--s-2);
   --border-thin: 2px;
 }
