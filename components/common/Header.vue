@@ -1,7 +1,7 @@
 <template>
   <ELBox padding="var(--s-1)" tag="header">
     <ELSwitcher :class="$style.headerContainer" space="var(--s-1)">
-      <div class="font-display">
+      <div class="font-tp-sl" style="font-weight: 800;">
         <NuxtLink
           to="/"
           title="tenpi (link to homepage)"
