@@ -19,10 +19,15 @@ follow me! in a normal internet-like type of following, you know, on the interne
 - :Icon{name="bi-steam"} [**steam**](https://steamcommunity.com/id/dayatmidnight/): `dayatmidnight`
 
 ::ELBox{padding="var(--s0)"}
-here's some places where i am not, and will likely never be:
-- **twitter** (because it stinks and the owner stinks) <small>(bad stink)</small>
-- **facebook** <small>(and any other facebook product)</small> (because they are war criminals) (also they banned me for changing my name)
-- **bluesky** (because it's twitter 2.0 and funded by cryptobros pushing bad ideas)
+
+  <details>
+  <summary>here's some places where i am not, and will likely never be:</summary>
+  <ul>
+  <li><strong>twitter</strong> (because it stinks and the owner stinks) <small>(bad stink)</small></li>
+  <li><strong>facebook</strong> <small>(and any other facebook product)</small> (because they are war criminals) (also they banned me for changing my name)</li>
+  <li><strong>bluesky</strong> (because it's twitter 2.0 and funded by cryptobros pushing bad ideas and following the same doomed path as twitter)</li>
+  </ul>
+  </details>
 ::
 
 ## more about me
