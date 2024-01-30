@@ -2,7 +2,7 @@
 
 i made a toki pona cheat sheet but with words all grouped!
 
-this is a learning tool that is useful when you already know the meaning of the words, and know how to use them, but have difficulty finding the correct word. (this is a problem i sometimes have!)
+this is a learning tool to help associating terms and concepts in categories for easier memorisation, and as a quick reference to find words fast!
 
 [![image](/tp-catdict/TP-EN_categorical_v22.1.0.png)](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
 
@@ -56,5 +56,5 @@ _note._ later i really should make the Figma file/link available.
 
 ::ELBox
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://tenpi.vercel.app/tokipona/catdict">categorised toki pona cheat sheet</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://tenpi.vercel.app">jan tenpi (daph)</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://tenpi.li/tokipona/catdict">categorised toki pona cheat sheet</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://tenpi.li">jan tenpi (daph)</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 ::
