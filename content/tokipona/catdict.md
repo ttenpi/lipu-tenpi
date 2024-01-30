@@ -6,7 +6,13 @@ this is a learning tool that is useful when you already know the meaning of the 
 
 [![image](/tp-catdict/TP-EN_categorical_v22.1.0.png)](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
 
-[**download** version 22.1.0 - 2 Sep 2023 (based on 2022 linku survey results)](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
+::ELBox{style="background-color: #fff1"}
+::ELCenter{andText}
+[:Icon{name="uil:download-alt"} **download** version 22.1.0 - 2 Sep 2023](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
+
+(based on 2022 linku survey results)
+::
+::
 
 _disclaimer._ some choices in the categorisation here are arbitrary and opinionated. it just makes sense to me this way. almost all Toki Pona words have uses which could place them in multiple categories.
 
@@ -18,7 +24,7 @@ not only do you get the visual help by use of the symbol script ([sitelen pona]{
 
 think about it! pokémon's first generation has about as many pokémon as there are toki pona words. you don't just remember their names but also what they look like and what typings they are! you can use this as a learning technique!
 
-this is not only a funny thought, but it is a common theme in psychology! [chunking](https://en.wikipedia.org/wiki/Chunking_(psychology)) is basically the practice of grouping together smaller pieces of information or splitting up a big piece of information so you can remember it and form it into a bigger cohesive whole later. this is also related to ["Miller's law"](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) (not to be confused with other "Miller's laws") what states that the maximum amount of objects you can store in short-term memory is 7 plus-minus 2 (though, later research has really kinda proven the fact that there's no one *magic number*).
+this is not only a funny thought, but it is a common theme in psychology! [chunking](<https://en.wikipedia.org/wiki/Chunking_(psychology)>) is basically the practice of grouping together smaller pieces of information or splitting up a big piece of information so you can remember it and form it into a bigger cohesive whole later. this is also related to ["Miller's law"](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two) (not to be confused with other "Miller's laws") what states that the maximum amount of objects you can store in short-term memory is 7 plus-minus 2 (though, later research has really kinda proven the fact that there's no one _magic number_).
 
 i hope, **i truly hope**, that this cheat sheet helps you on your beginning toki pona journey, if you're just starting out. get involved in the community by just casually chatting with us! find stuff to read or listen to toki pona music! **you can do it!** this language is so much fun to learn and puts your creative thinking to work, even if you think you're not good at learning or at languages. (i would know, i failed my french and german classes, and gave up on learning japanese!)
 
