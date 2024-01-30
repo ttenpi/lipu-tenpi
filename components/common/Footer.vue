@@ -126,6 +126,7 @@
     "mu!",
     "i wake up, i go online, post absurdities, and eat snacks",
     "daph 'Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation' Lastname",
+    "unhinged is the perfect amount of hingedness",
   ]
 
   const quote = quotes[Math.floor(Math.random() * quotes.length)]
