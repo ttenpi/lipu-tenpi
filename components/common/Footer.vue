@@ -31,7 +31,7 @@
             </p>
           </ELCenter>
 
-          <!-- pro-advertising section -->
+          <!-- pro-anti-advertising section -->
           <ELBox
             id="ad_container"
             style="
