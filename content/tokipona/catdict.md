@@ -6,7 +6,7 @@ this is a learning tool that is useful when you already know the meaning of the 
 
 [![image](/tp-catdict/TP-EN_categorical_v22.1.0.png)](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
 
-::ELBox{style="background-color: #fff1"}
+::ELBox{style="background-color: var(--ctp-surface0)"}
 ::ELCenter{andText}
 [:Icon{name="uil:download-alt"} **download** version 22.1.0 - 2 Sep 2023](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"}
 
