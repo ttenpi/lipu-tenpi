@@ -1,12 +1,12 @@
 # about me
 
-hello world :Icon{name="mdi:hand-wave"} nice to meet you, i'm silly, and you've found yourself on my silly site <small>as opposed to a serious site i maybe do/maybe don't have</small>
+hello world :Icon{name="mdi:hand-wave"} nice to meet you, i'm silly, and you've found yourself on my silly site <small>as opposed to a serious site i maybe do/maybe don't have</small> and on this page you'll get to learn more about me!
 
 ::ELCenter
-⚞ my name is **daph** aka **day** aka [**<span lang="tok-Latn">jan tenpi</span>**](/tokipona/nimi_mi){style="color: var(--ctp-text)"} ⚟
+⚞ my name is [**daph**]{.primary} aka [**day**]{.primary} aka [**jan tenpi**](/tokipona/nimi_mi){.primary lang="tok-Latn"} ⚟
 ::
 
-i am :Icon{name="twemoji:transgender-flag"} trans female, nonbinary, gendervoid and femflux and [pronouns](https://en.pronouns.page/@daph) are she/her they/them [mu/mu](https://en.pronouns.page/mu/muu/muu/muuuses/muuuself){style="color: var(--ctp-text)" lang="tok-Latn"} <small>repeat U as many time as you wish, disregard logic or grammatical correctness</small>
+i am :Icon{name="twemoji:transgender-flag"} trans female, nonbinary, gendervoid and femflux and [pronouns](https://en.pronouns.page/@daph) are she/her they/them <!--[mu/mu](https://en.pronouns.page/mu/muu/muu/muuuses/muuuself){style="color: var(--ctp-text)" lang="tok-Latn"} <small>repeat U as many time as you wish, disregard logic or grammatical correctness</small>--> and it/its (with no preference for one over the other).
 
 ## i'm also on these sites
 
@@ -34,7 +34,7 @@ follow me! in a normal internet-like type of following, you know, on the interne
 
 i also am a vtuber but maybe i'll add more about that later, if i finish my new avatar and stop being on hiatus
 
-if you see me using a :Icon{name="noto-v1:cow"} cow emoji, feel free to moo/<span lang="tok-Latn">mu</span>!
+if you see a cow, or see me using a :Icon{name="noto-v1:cow"} cow emoji, or see me being a cow, feel free to moo/[mu]{lang="tok-Latn"}!
 
 other things about myself, things i like, or things i am, all thrown on a big pile:
 
