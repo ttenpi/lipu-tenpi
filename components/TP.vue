@@ -12,7 +12,7 @@
     }>(),
     {
       tag: "span",
-      script: false,
+      sp: false,
     }
   )
 </script>
