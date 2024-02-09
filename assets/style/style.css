@@ -34,6 +34,14 @@ mark,
   color: var(--color-secondary);
 }
 
+.wavy-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  text-decoration-style: wavy;
+  text-underline-offset: 0.25em;
+  text-decoration-skip-ink: none;
+}
+
 #nuxt-devtools-iframe {
   max-inline-size: unset;
 }

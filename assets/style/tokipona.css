@@ -85,6 +85,11 @@ h6 :lang("tok-Latn") {
   overflow-wrap: normal; */
 }
 
+p:lang("en") span[lang="tok-x-stlnpona"] {
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
 /* ruby annotations */
 rt,
 rtc {
