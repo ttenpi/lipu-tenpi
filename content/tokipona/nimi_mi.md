@@ -15,7 +15,7 @@ well, i first went through the regular means of making names; _tokiponisation_:
 - _Day_ becomes [Te]{lang="tok-Latn"}
   - i also don't feel super about that name. it's short, which i like (they say that the shorter your name is, the better a gamer you are...), but it doesn't _feel like me_.
 
-so, these options aren't viable to me. what's next? you guessed it! _it's bodging time, baby!_
+so, these options aren't viable to me. what's next? you guessed it! _it's [bodging](https://en.wiktionary.org/wiki/bodge#Verb){target="\_blank"} time, baby!_
 
 what about my name, _daphne_, gives it the particular mouthfeel? it's the consonant cluster: **-phn-**! it's phonotactically impossible in toki pona (but if it were, and we would restrict it to just the toki pona alphabet, it would look like [*Tepni*]{lang="tok-Latn"})
 
