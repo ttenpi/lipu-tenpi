@@ -50,7 +50,7 @@ before i begin, let me say i don't necessarily see this as a negative. i'm not b
 1. first, i don't remember what came first:
    - [lipu Linku](https://linku.la) lists [**ten**]{lang="tok-Latn"} with the definition: "(shortened variant of [tenpo]{lang="tok-Latn"})"
    - [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/) has the hourglass gliph listed as `ten2`
-2. then, through one of [jan Kekan San]{lang="tok-Latn"}'s VR lessons, i learned that some speakers use the hourglass as alternate glyph for [**tenpo**]{lang="tok-Latn"}
+2. then, through one of [jan Kekan San](https://mun.la/){lang="tok-Latn"}'s VR lessons, i learned that some speakers use the hourglass as alternate glyph for [**tenpo**]{lang="tok-Latn"}
 3. and then, i learned that [**ten**]{lang="tok-Latn"} with the hourglass glyph is a [nimi sin]{lang="tok-Latn"} (community-made new word) for **the number 10** (the glyph should then be interpreted as a latin numeral 10: Ⅹ, but with an line under and over)
 
 any or all of these could be true, and i don't have a problem with that. in the end, it works in my benefit: whether it means [ten]{lang="tok-Latn"} or [tenpo]{lang="tok-Latn"}, it still starts with "ten"!
