@@ -1,6 +1,6 @@
 # about my name in [toki pona]{lang="tok-Latn"}
 
-(written 2023-02-10 by [tonsi tenpi]{lang="tok-Latn"}, that's me!)
+(written 2024-02-10 by [tonsi tenpi]{lang="tok-Latn"}, that's me!)
 
 <abbr title="too long, didn't read">tl;dr</abbr> [**jan tenpi**]{lang="tok-Latn"} [jan \[tonsi en nanpa pan ijo\]]{lang="tok-x-stlnpona"} (or [**tonsi tenpi**]{lang="tok-Latn"}) is fine
 
@@ -13,7 +13,7 @@ well, i first went through the regular means of making names; _tokiponisation_:
 - _"Daphne"_ becomes [Teni]{lang="tok-Latn"} (or [Tani]{lang="tok-Latn"})
   - oof, not to diss that name or say it's strictly masculine, but i just know people whose names are Tani. it also doesn't have the same _mouthfeel_ as "daph".
 - _Day_ becomes [Te]{lang="tok-Latn"}
-  - i also don't feel super about that name. it's short, which i like (they say that the shorter your name is, the better a gamer you are...), but it doesn't _feel like me_.
+  - i also don't feel super about that name. it's short, which i like (they say that the shorter your name is, the better a gamer you are...), but it doesn't _feel like me_ (i'm not *that good* of a gamer).
 
 so, these options aren't viable to me. what's next? you guessed it! _it's [bodging](https://en.wiktionary.org/wiki/bodge#Verb){target="\_blank"} time, baby!_
 
