@@ -8,7 +8,7 @@
               <q title="random nonsense">{{ quote }}</q>
             </p>
             <p>
-              designed by daph <Icon name="twemoji:transgender-flag" /> in the
+              designed by <b class="primary">daph</b> <Icon name="twemoji:transgender-flag" /> in the
               netherlands
             </p>
             <p>
