@@ -35,7 +35,7 @@
 }
 
 :root {
-  --font-sitelen-pona: "nasin nanpa", cursive;
+  --font-sitelen-pona: "linja lipamanka", cursive;
   --font-sitelen-lasina: "Nunito", cursive;
 }
 
@@ -86,8 +86,28 @@ h6 :lang("tok-Latn") {
 }
 
 p:lang("en") span[lang="tok-x-stlnpona"] {
+  display: inline-block;
   vertical-align: middle;
   font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* force font */
+
+.fairfax {
+  font-family: "Fairfax Pona HD", cursive;
+}
+
+.linjasuwi {
+  font-family: "linja suwi", cursive;
+}
+
+.nasinnanpa {
+  font-family: "nasin nanpa", cursive;
+}
+
+.linjalipamanka {
+  font-family: "linja lipamanka", cursive;
 }
 
 /* ruby annotations */
