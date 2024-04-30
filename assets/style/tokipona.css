@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "nasin nanpa";
-  src: url("../fonts/nasin-nanpa-2.7.1.otf") format("opentype");
+  src: url("../fonts/nasin-nanpa-4.0.0.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 }
 
 :root {
-  --font-sitelen-pona: "linja lipamanka", cursive;
+  --font-sitelen-pona: "nasin nanpa", cursive;
   --font-sitelen-lasina: "Nunito", cursive;
 }
 
