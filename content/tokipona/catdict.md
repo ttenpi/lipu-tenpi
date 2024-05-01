@@ -95,9 +95,12 @@ forking/remixing/redistributing/adapting this project is explicitly allowed by a
 
 liked this project? consider donating!
 
-[:Icon{name="uil:gift"} donate!](https://bunq.me/tenpi/donation+(tenpi.li)) ( :Icon{name="uil:credit-card"} credit or debit (worldwide), :Icon{name="cib:ideal"} iDeal (NL), :Icon{name="cib:bancontact"} Bancontact (BE) )
+[:Icon{name="uil:gift"} donate!](https://bunq.me/tenpi/donation+(tenpi.li))
 
-(payments are processed by :Icon{name="simple-icons:bunq"} bunq, and is directly linked to my bank account)
+payments are processed by :Icon{name="simple-icons:bunq"} bunq, my bank, and are directly deposited to my bank account. you can use:
+- :Icon{name="uil:credit-card"} credit or debit (all Visa and Mastercard, i receive 97.5% of your donation)
+- :Icon{name="cib:ideal"} iDeal (NL, 100%)
+- :Icon{name="cib:bancontact"} Bancontact (BE, 100%, donation must be above €5)
 
 please only consider donating if you can spare the money. if you're a student or could really use the money for basic needs like food or rent, you really don't have to. (i especially discourage using Sofort/Klarna, please only spend money you have, responsibly.)
 
