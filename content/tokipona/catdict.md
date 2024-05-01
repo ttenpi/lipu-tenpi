@@ -18,10 +18,11 @@ _disclaimer._ some choices in the categorisation here are arbitrary and opiniona
 
 ## features
 
-- all the **132** Toki Pona vocab you need, fitted on one page!
+- all the **132** Toki Pona words you need (core and common)
 - short and sweet rewritten definitions
 - [sitelen pona]{lang="tok-Latn"} glyphs, including alternates!
 - it's colourful so it's pleasant to look at!
+- and it all fits neatly on one sheet of paper!
 
 ## why?
 
