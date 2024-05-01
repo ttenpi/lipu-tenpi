@@ -90,6 +90,18 @@ forking/remixing/redistributing/adapting this project is explicitly allowed by a
   - and the people of [ma toki pona VR]{lang="tok-Latn"}
 - you!
 
+## sponsor this project
+
+liked this project? consider donating!
+
+[:Icon{name="uil:gift"} donate!](https://bunq.me/tenpi/donation+(tenpi.li)) ( :Icon{name="uil:credit-card"} credit or debit (worldwide), :Icon{name="cib:ideal"} iDeal (NL), :Icon{name="cib:bancontact"} Bancontact (BE) )
+
+(payments are processed by :Icon{name="simple-icons:bunq"} bunq, and is directly linked to my bank account)
+
+please only consider donating if you can spare the money. if you're a student or could really use the money for basic needs like food or rent, you really don't have to. (i especially discourage using Sofort/Klarna, please only spend money you have, responsibly.)
+
+**sharing this site by posting it on your socials, or sharing it with new Toki Pona learners is absolutely the best thing you could do!**
+
 ::ELBox
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://tenpi.li/tokipona/catdict">categorised toki pona cheat sheet</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://tenpi.li">tonsi tenpi (daph)</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>
