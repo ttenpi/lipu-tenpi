@@ -21,23 +21,23 @@ follow me! in a normal internet-like type of following, you know, on the interne
 - :Icon{name="simple-icons:nintendo3ds"} **pictochat**: daph (no link, just be nearby) <!-- on a more serious note, i hope i'm on meshtastic soon -->
 
 ::ELBox{padding="var(--s0)"}
+  ::Details
+  #summary
+  here's some places where i refuse to go
 
-  <details>
-  <summary>here's some places where i am not, and will likely never be:</summary>
-  <ul>
-  <li><strong>twitter</strong> (because it stinks and the owner stinks) <small>(bad stink)</small> (they platform fascists)</li>
-  <li><strong>facebook</strong> <small>(and any other facebook product i.e. threads, instagram, whatsapp)</small> (because they are <a href="https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/">war criminals</a>) (also they banned me for <a href="https://gizmodo.com/facebook-apologizes-over-real-name-policy-offensive-to-1641335002">changing my name</a>) (they too platform fascists)</li>
-  <li><strong>bluesky</strong> (because it's twitter 2.0 and funded by cryptobros pushing bad ideas and following the same doomed path as twitter)</li>
-  <li><strong>telegram</strong> (because they're <a href="https://plush.city/@PsyChuan/112336464469767051">actual nazis</a> and like to <a href="https://social.treehouse.systems/@dee/112002194608284452">ban queer ppl</a>)</li>
-  </ul>
-  </details>
+  #default
+  - **twitter** (because it stinks and the owner stinks) <small>(bad stink)</small> (they platform fascists)
+  - **facebook** <small>(and any other facebook product i.e. threads, instagram, whatsapp)</small> (because they are [war criminals](https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/)) (also they banned me for [changing my name](https://gizmodo.com/facebook-apologizes-over-real-name-policy-offensive-to-1641335002)) (they too platform fascists)
+  - **bluesky** (because it's twitter 2.0 and funded by cryptobros pushing bad ideas and following the [same doomed path as twitter](https://social.nano.lgbt/notes/9xrcgxcckqwmxwev))
+  - **telegram** (because they're [actual nazis](https://plush.city/@PsyChuan/112336464469767051) and like to [ban queer ppl](https://social.treehouse.systems/@dee/112002194608284452))
+  ::
 ::
 
 ## more about me
 
-i also am a vtuber but maybe i'll add more about that later, if i finish my new avatar and stop being on hiatus
+<!-- i also am a vtuber but maybe i'll add more about that later, if i finish my new avatar and stop being on hiatus -->
 
-if you see a cow, or see me using a :Icon{name="noto-v1:cow"} cow emoji, or see me being a cow, feel free to moo/[mu]{lang="tok-Latn"}!
+if you see a cow, or see me using a :Icon{name="noto-v1:cow"} cow emoji, or see me being a cow, feel free to moo/[mu]{lang="tok-Latn"} me!
 
 other things about myself, things i like, or things i am, all thrown on a big pile:
 
