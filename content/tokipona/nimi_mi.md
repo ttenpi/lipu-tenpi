@@ -1,3 +1,11 @@
+---
+title: "about my name in toki pona"
+description: "the answer to why it's \"tonsi tenpi\""
+date: "2024-02-10"
+categories:
+  - toki pona
+---
+
 # about my name in [toki pona]{lang="tok-Latn"}
 
 (written 2024-02-10 by [tonsi tenpi]{lang="tok-Latn"}, that's me!)

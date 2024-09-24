@@ -157,3 +157,18 @@ hello world
 ::ELBox{invert}
 hello world
 ::
+
+::Details{open}
+hello
+
+#summary
+muu
+::
+
+::Details{open}
+#summary
+muu
+
+#default
+world
+::

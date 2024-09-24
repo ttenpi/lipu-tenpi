@@ -1,16 +1,26 @@
+---
+title: "categorised toki pona cheat sheet"
+description: "i made a single-sheet toki pona dictionary with the words grouped by themes"
+date: "2023-09-02"
+last_updated: "2024-09-25"
+categories:
+  - projects
+  - toki pona
+---
+
 # categorised toki pona cheat sheet
 
-i made a toki pona cheat sheet but with words all grouped!
+i made a single-sheet toki pona dictionary with the words grouped by themes!
 
 this is a learning tool to help associating terms and concepts in categories for easier memorisation, and as a quick reference to find words fast!
 
-[![image](/tp-catdict/TP-EN_categorical_v23.0.0-A4-l.png)](/tp-catdict/TP-EN_categorical_v23.0.0-A4-l.pdf){target="\_blank"}
+[![image](/tp-catdict/TP-EN_categorical_v24.0.0-A4-l.png)](/tp-catdict/TP-EN_categorical_v24.0.0-A4-l.pdf){target="\_blank"}
 
 ::ELBox{style="background-color: var(--ctp-surface0)"}
 ::ELCenter{andText}
-[:Icon{name="uil:download-alt"} **download** version 23.0.0 - 1 May 2024](/tp-catdict/TP-EN_categorical_v23.0.0-A4-l.pdf){target="\_blank"}
+[:Icon{name="uil:download-alt"} **download** version 24.0.0 - 25 September 2024](/tp-catdict/TP-EN_categorical_v24.0.0-A4-l.pdf){target="\_blank"}
 
-(PDF document, A4 landscape) (based on 2023 linku survey results)
+(PDF document, A4 landscape) (based on 2024 linku survey results)
 ::
 ::
 
@@ -38,11 +48,57 @@ i hope, **i truly hope**, that this cheat sheet helps you on your beginning toki
 
 ## previous versions
 
-<details open>
-  <summary>based on 2023 linku survey results</summary>
+::Details{open}
+#summary
+based on 2024 linku survey results
 
+#default
+- [version 24.0.0 - 25 September 2024](/tp-catdict/TP-EN_categorical_v24.0.0-A4-l.pdf){target="\_blank"}
+
+  thanks for scrolling down here, have some secret freebies:
+
+    - [alphabetical version](/tp-catdict/TP-EN_alphabetical_v24.0.0-A4-l.pdf)
+    - [categorical version *in Dutch*](/tp-catdict/TP-NL_categorisch_v24.0.0-A4-l.pdf)
+
+  ::Details{open}
+  #summary
+  14 minor changes
+
+  #default
+    - [su]{lang="tok-x-stlnpona"} [su]{lang="tok-Latn"} remains on the cheat sheet not only due to laziness reasons, but also because i feel it's proper to acknowledge the works of the creator of the language, especially in a learners' resource
+    - several reorderings of definitions
+      - reordered due to etymology not being in front or semantic prevalence
+        - [nena]{lang="tok-x-stlnpona"} [nena]{lang="tok-Latn"} lists "nose" first and "button" last (Finnish)
+        - [pan]{lang="tok-x-stlnpona"} [pan]{lang="tok-Latn"} lists "bread" first (Romance/Japanese/Portuguese)
+        - [monsuta]{lang="tok-x-stlnpona"} [monsuta]{lang="tok-Latn"} lists "monster" first (Japanese)
+        - [poka]{lang="tok-x-stlnpona"} [poka]{lang="tok-Latn"} lists "side" first (Serbo-Croatian)
+        - [monsi]{lang="tok-x-stlnpona"} [monsi]{lang="tok-Latn"} lists "behind" first (Acadian French)
+      - reordered due to semantic prevalence or logical ordering
+        - [mama]{lang="tok-x-stlnpona"} [mama]{lang="tok-Latn"} lists "caretaker" next to "parent"
+        - [lupa]{lang="tok-x-stlnpona"} [lupa]{lang="tok-Latn"} lists "window" next to "door"
+        - [wawa]{lang="tok-x-stlnpona"} [wawa]{lang="tok-Latn"} lists "amazing" first
+    - added to definition
+      - [meli]{lang="tok-x-stlnpona"} [meli]{lang="tok-Latn"} now includes "feminine"
+      - [mije]{lang="tok-x-stlnpona"} [mije]{lang="tok-Latn"} now includes "masculine"
+      - [lipu]{lang="tok-x-stlnpona"} [lipu]{lang="tok-Latn"} now includes "document"
+    - changes to definition for clarification or wider semantic space
+      - [telo]{lang="tok-x-stlnpona"} [telo]{lang="tok-Latn"} doesn't include "oil, ink" and now includes "to wash, to clean"
+      - [ko]{lang="tok-x-stlnpona"} [ko]{lang="tok-Latn"} doesn't include "semi-solid" and now includes "something pliable; sand"
+      - [a]{lang="tok-x-stlnpona"} [a]{lang="tok-Latn"} is now described as an "interjection" instead of "marker"
+    - [mun]{lang="tok-x-stlnpona"} [mun]{lang="tok-Latn"} now lists ⛤ as an alternate glyph. albeit untested in surveys, i think it's worth trying. i can always reverse course later.
+::
+
+::Details
+#summary
+based on 2023 linku survey results
+
+#default
 - [version 23.0.0 - 1 May 2024](/tp-catdict/TP-EN_categorical_v23.0.0-A4-l.pdf){target="\_blank"}
-  - changes:
+  ::Details
+  #summary
+  many changes
+
+  #default
     - completely rehauled definitions, mostly due to missed meanings last version
     - adds words [misikeke]{lang="tok-x-stlnpona"} [misikeke]{lang="tok-Latn"} (**necessities**) and [n]{lang="tok-x-stlnpona"} [n]{lang="tok-Latn"} (**evoke**) based on new survey results and widening of the usage windows for the common word category
     - adds [su]{lang="tok-x-stlnpona"} [su]{lang="tok-Latn"} (**activity**) based on [the new book release](https://tokipona.org/)!
@@ -53,14 +109,16 @@ i hope, **i truly hope**, that this cheat sheet helps you on your beginning toki
     - all categories have their own colour now
     - the cheat sheet is now built with Penpot, which is a new cool open source design tool, which i am really happy with
     - starting this version, the cheat sheet is marked as dedicated to the public domain, using the CC0 license
+  ::
+::
 
-</details>
-<details>
-  <summary>based on 2022 linku survey results</summary>
+::Details
+#summary
+based on 2022 linku survey results
 
+#default
 - [version 22.1.0 - 2 Sep 2023](/tp-catdict/TP-EN_categorical_v22.1.0.pdf){target="\_blank"} (CC BY 4.0 license)
-
-</details>
+::
 
 *note.* maybe soon i should also make a portrait version or also alternative paper sizes (i'm looking at you, *[ma Mewika]{lang="tok-Latn"}*...)
 
@@ -70,13 +128,23 @@ feel free to [reach out to me](/mi) and discuss changes.
 
 forking/remixing/redistributing/adapting this project is explicitly allowed by anyone without asking permission and without the need to give credit to me (starting at v23.0.0), as it is licensed CC0, dedicated to the public domain.
 
-<details>
-  <summary>download source files</summary>
+::Details
+#summary
+download source files (v24.0.0)
 
-- [:Icon{name="uil:download-alt"} download source](/tp-catdict/tpcat-v23.0.0.penpot){target="\_blank"} (`.penpot` for [Penpot](https://penpot.app/))
-- [:Icon{name="uil:download-alt"} download SVG + JSON](/tp-catdict/tpcat-v23.0.0.zip){target="\_blank"} (for archival purposes)
+#default
+- [:Icon{name="uil:download-alt"} download source](/tp-catdict/tpcat-v24.0.0.penpot){target="\_blank"} (`.penpot` for [Penpot](https://penpot.app/))
+- [:Icon{name="uil:download-alt"} download SVG + JSON](/tp-catdict/tpcat-v24.0.0.zip){target="\_blank"} (for archival purposes)
+::
 
-</details>
+::Details
+#summary
+older source files
+#default
+- v23.0.0
+  - [:Icon{name="uil:download-alt"} download source](/tp-catdict/tpcat-v23.0.0.penpot){target="\_blank"} (`.penpot` for [Penpot](https://penpot.app/))
+  - [:Icon{name="uil:download-alt"} download SVG + JSON](/tp-catdict/tpcat-v23.0.0.zip){target="\_blank"} (for archival purposes)
+::
 
 ## credits
 
@@ -97,10 +165,15 @@ liked this project? consider donating!
 
 [:Icon{name="uil:gift"} donate!](https://bunq.me/tenpi/donation+(tenpi.li))
 
+::Details
+#summary
+donation info
+#default
 payments are processed by :Icon{name="simple-icons:bunq"} bunq, my bank, and are directly deposited to my bank account. you can use:
 - :Icon{name="uil:credit-card"} credit or debit (all Visa and Mastercard, i receive 97.5% of your donation)
 - :Icon{name="cib:ideal"} iDeal (NL, 100%)
 - :Icon{name="cib:bancontact"} Bancontact (BE, 100%, donation must be above €5)
+::
 
 please only consider donating if you can spare the money. if you're a student or could really use the money for basic needs like food or rent, you really don't have to. (i especially discourage using Sofort/Klarna, please only spend money you have, responsibly.)
 
