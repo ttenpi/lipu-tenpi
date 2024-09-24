@@ -57,8 +57,8 @@ based on 2024 linku survey results
 
   thanks for scrolling down here, have some secret freebies:
 
-    - [alphabetical version](/tp-catdict/TP-EN_alphabetical_v24.0.0-A4-l.pdf)
-    - [categorical version *in Dutch*](/tp-catdict/TP-NL_categorisch_v24.0.0-A4-l.pdf)
+    - [alphabetical version](/tp-catdict/TP-EN_alphabetical_v24.0.0-A4-l.pdf){target="\_blank"}
+    - [categorical version *in Dutch*](/tp-catdict/TP-NL_categorisch_v24.0.0-A4-l.pdf){target="\_blank"}
 
   ::Details{open}
   #summary
