@@ -10,7 +10,7 @@
 
   useHead({
     titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} – tenpi` : "jan tenpi"
+      return titleChunk ? `${titleChunk} – tenpi` : "tonsi tenpi"
     },
   })
 </script>
